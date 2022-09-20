@@ -17,7 +17,7 @@ int main()
     suma+= nota1+nota2;
     promedio = suma / 2;
 
-    printf ("La nota promedio fue de : %d", promedio);
+    printf ("La nota promedio fue de : %f", promedio);
 
     return 0;
 
