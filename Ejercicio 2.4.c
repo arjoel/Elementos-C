@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*Confeccionar un programa que ingrese una medida en ‘pies’ y la exhiba convertida a yardas, pulgadas, cms.
+/*Confeccionar un programa que ingrese una medida en â€˜piesâ€™ y la exhiba convertida a yardas, pulgadas, cms.
 y mts.
  */
 
@@ -25,10 +25,10 @@ int main ()
     pies_a_mts = pies / 3.281;
 
 
-    printf ("El valor de pies a yardas es de %2f", pies_a_yardas);
-    printf ("El valor de pies a pulgadas es de %2f", pies_a_pulgadas);
-    printf ("El valor de pies a centimetros es de %2f", pies_a_cms);
-    printf ("El valor de pies a metros es de %2f", pies_a_mts);
+    printf ("\nEl valor de pies a yardas es de %2f", pies_a_yardas);
+    printf ("\nEl valor de pies a pulgadas es de %2f", pies_a_pulgadas);
+    printf ("\nEl valor de pies a centimetros es de %2f", pies_a_cms);
+    printf ("\nEl valor de pies a metros es de %2f", pies_a_mts);
 
 
     return 0;
