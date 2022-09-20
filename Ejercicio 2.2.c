@@ -6,8 +6,8 @@ int main()
 
     int nota1;
     int nota2;
-    int promedio;
-    int suma;
+    float promedio;
+    int suma = 0;
 
 
     printf ("Ingrese la primer nota : ");
