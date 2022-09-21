@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Se ingresa un número entero de 3 cifras. Descomponerlo en unidad, decena y centena.
+//Se ingresa un nÃºmero entero de 3 cifras. Descomponerlo en unidad, decena y centena.
 
 int main ()
 {
@@ -12,9 +12,9 @@ int main ()
     printf ("Ingrese un numero de 3 cifras: ");
     scanf ("%d", &numero);
 
-    centena = numero/ 1;
-    decena  = numero/ 10;
-    unidad  = numero / 100;
+    unidad = numero % 10;
+    decena = (numero / 10) % 10;
+    centena = numero / 100;
 
     printf ("\nla centena es igual a %d ", centena);
     printf ("\nla decena es igual a %d ", decena);
