@@ -1,23 +1,28 @@
 #include <stdio.h>
 
-/*Se ingresa un número entero que representa una fecha con formato (ddmmaa). Se pide transformarlo a un
-número con formato (aammdd)*/
+/*Se ingresa un nÃºmero entero que representa una fecha con formato (ddmmaa). Se pide transformarlo a un
+nÃºmero con formato (aammdd)*/
 
 int main()
 {
 
-    int dd;
-    int mm;
+    int numero;
     int aa;
+    int mm;
+    int dd;
 
-    printf ("Ingrese un dia: ");
-    scanf ("%d", &dd);
-    printf ("Ingrese un mes: ");
-    scanf ("%d", &mm);
-    printf ("Ingrese un anio: ");
-    scanf ("%d", &aa);
 
-    printf ("La fecha que ud introducio fue %d/%d/%d", aa, mm, dd);
+    printf ("Ingrese una fecha :");
+    scanf ("%d", &numero);
+
+    aa = numero / 10000;
+    mm = (numero % 1000) / 10;
+    dd = numero % 100;
+
+printf ("La fecha dada vuelta es: %02d, %02d, %02d", dd,mm,aa);
+
+
+
 
 
 
