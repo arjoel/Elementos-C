@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*Confeccionar un programa que solicite el ingreso del valor del radio (r) de un círculo y con dicho valor calcule
-la superficie del círculo, la longitud de la circunferencia (perímetro) y el volumen de la esfera. */
+/*Confeccionar un programa que solicite el ingreso del valor del radio (r) de un cÃ­rculo y con dicho valor calcule
+la superficie del cÃ­rculo, la longitud de la circunferencia (perÃ­metro) y el volumen de la esfera. */
 
 
 int main()
@@ -19,7 +19,7 @@ int main()
 
     superficie = pi * radio * radio;
     perimetro = 2 * pi * radio;
-    volumen = (4/3) * pi;
+    volumen = (4/3) * pi * radio * radio * radio;
 
     printf ("\n La superficie es igual a : %.2f", superficie);
     printf ("\n El perimetro es igual a : %.2f", perimetro);
