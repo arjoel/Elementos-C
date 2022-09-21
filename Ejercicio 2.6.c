@@ -8,12 +8,22 @@ Obtener la recaudación total del vuelo. */
 int main()
 {
 
+
+
     int clase_turista = 8800;
     int primera_clase_adicion;
-    int clase_turista_vendidos= 20;
-    int primera_clase_vendidos= 10;
+    int clase_turista_vendidos;
+    int primera_clase_vendidos;
     int recaudacion_total;
     int primera_clase;
+
+    printf ("Ingrese cuantos boletos de clase turista se han vendido : ");
+    scanf ("%d", &clase_turista_vendidos);
+
+    printf ("Ingrese cuantos boletos de primera clase se han vendido : ");
+    scanf ("%d", &primera_clase_vendidos);
+
+
 
     primera_clase_adicion = (clase_turista * 30)/ 100;
     primera_clase= primera_clase_adicion+clase_turista;
