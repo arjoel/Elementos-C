@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*Ingresar 3 valores reales y:
-a. Si los dos primeros son mayores al tercero informar ìMAYORES AL TERCEROî.
-b. Si los tres son iguales informar ìTRES IGUALES .
-c. Si alguno de los dos primeros es menor al tercero informar ìALGUNO ES MENORî.*/
+a. Si los dos primeros son mayores al tercero informar ‚ÄúMAYORES AL TERCERO‚Äù.
+b. Si los tres son iguales informar ‚ÄúTRES IGUALES .
+c. Si alguno de los dos primeros es menor al tercero informar ‚ÄúALGUNO ES MENOR‚Äù.*/
 
 
 int main()
@@ -25,7 +25,7 @@ int main()
     if ( a == b && b == c)
     {
 
-        printf("son iguales", a,b,c);
+        printf("son iguales");
     }
 
     if (a < c || b < c)
