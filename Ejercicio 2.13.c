@@ -21,12 +21,7 @@ int main()
     centena=numero % 100 / 10;
     decena= numero % 1000 / 100;
     unidad = numero % 10;
-    printf ("mil %d\n", mil);
-    printf ("centena %d\n", centena);
-    printf ("decena %d\n", decena);
-    printf ("unidad %d\n", unidad);
     nuevo_numero = ( mil + centena + decena + unidad );
-    printf ("numero nuevo: %d\n", nuevo_numero);
     nuevo_numero_decena = nuevo_numero / 10;
     nuevo_numero_unidad = nuevo_numero % 10;
     numero_descomprimido = nuevo_numero_decena + nuevo_numero_unidad;
