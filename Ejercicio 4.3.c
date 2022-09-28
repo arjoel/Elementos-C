@@ -6,7 +6,6 @@ int main()
 {
 
     int a,b,c = 0;
-    int suma_igual_a,suma_igual_b,suma_igual_c= 0;
     printf("ingrese un numero: ");
     scanf("%d",&a);
     printf("ingrese un numero: ");
