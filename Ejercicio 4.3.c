@@ -1,12 +1,11 @@
 #include <stdio.h>
-//Confeccionar un programa que pueda determinar de 3 números enteros que se ingresan si alguno de ellos
+//Confeccionar un programa que pueda determinar de 3 nÃºmeros enteros que se ingresan si alguno de ellos
 //es igual a la suma de los otros dos.
 
 int main()
 {
 
     int a,b,c = 0;
-    int suma_igual_a,suma_igual_b,suma_igual_c= 0;
     printf("ingrese un numero: ");
     scanf("%d",&a);
     printf("ingrese un numero: ");
@@ -15,17 +14,17 @@ int main()
     scanf("%d",&c);
 
 
-    if (a= b+c)
+    if (a== b+c)
     {
         printf("\n%d es igual a la suma de %d y %d", a, b, c);
 
     }
-    if (b= a+c)
+    if (b== a+c)
     {
         printf("\n%d es igual a la suma de %d y %d", b, a, c);
 
     }
-    if (c= a+b)
+    if (c== a+b)
     {
         printf("\n%d es igual a la suma de %d y %d", c, a, b);
 
@@ -34,3 +33,4 @@ int main()
 
     return 0;
 }
+
