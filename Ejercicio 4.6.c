@@ -39,8 +39,5 @@ int main()
     }
 
 
-    printf("\nel menor numero ingresado fue: %d", menor);
-
-
     return 0;
 }
